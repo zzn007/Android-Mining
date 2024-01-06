@@ -35,7 +35,8 @@ If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 6
 curl -o- -k https://raw.githubusercontent.com/DCMiner-80/Android-Mining/main/install.sh | bash
 ```
 For easy access on phones:
-![install.sh](QR/install.png)
+<a rel='nofollow' href='http://' border='0' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=curl%20-o-%20-k%20https%3A%2F%2Fraw.githubusercontent.com%2FDCMiner-80%2FAndroid-Mining%2Fmain%2Finstall.sh%20%7C%20bash&chs=180x180&choe=UTF-8&chld=L|2' alt=''></a>
+
 
 Now adjust pools, mineraddress+workername, and network settings for the API.
 exit with `<CTRL>-X` followed by `y` and an `<ENTER>`

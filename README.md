@@ -32,7 +32,7 @@ lscpu
 If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 64-bit`, then do not bother to continue. Your phone is not running a 64-bit OS.
 
 ```bash
-curl -o- -k https://raw.githubusercontent.com/DCMiner-80/Android-Mining/main/install.sh | bash
+curl -o- -k https://raw.githubusercontent.com/zzn007/Android-Mining/main/install.sh | bash
 ```
 For easy access on phones:
 <a rel='nofollow' href='http://' border='0' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=curl%20-o-%20-k%20https%3A%2F%2Fraw.githubusercontent.com%2FDCMiner-80%2FAndroid-Mining%2Fmain%2Finstall.sh%20%7C%20bash&chs=180x180&choe=UTF-8&chld=L|2' alt=''></a>

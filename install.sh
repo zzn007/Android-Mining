@@ -60,13 +60,13 @@ chmod +x ~/ccminer/ccminer
 cat << EOF > ~/ccminer/start.sh
 #!/bin/sh
 #exit existing screens with the name CCminer
-screen -S CCminer -X quit 1>/dev/null 2>&1
+#screen -S CCminer -X quit 1>/dev/null 2>&1
 #wipe any existing (dead) screens)
-screen -wipe 1>/dev/null 2>&1
+#screen -wipe 1>/dev/null 2>&1
 #create new disconnected session CCminer
-screen -dmS CCminer 1>/dev/null 2>&1
+#screen -dmS CCminer 1>/dev/null 2>&1
 #run the miner
-screen -S CCminer -X stuff "~/ccminer/ccminer -c ~/ccminer/config.json\n" 1>/dev/null 2>&1
+~/ccminer/ccminer -c ~/ccminer/config.json
 printf '\nMining started.\n'
 printf '===============\n'
 printf '\nManual:\n'
